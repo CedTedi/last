@@ -5,8 +5,8 @@ let btnlogin = document.getElementById('btnlogin');
 btnlogin.addEventListener("click", function(e) {
     e.preventDefault();
 
-    if (inputuser.value === "Ronie") {
-        if (inputpass.value === "1234") {
+    if (inputuser.value === "Cedi") {
+        if (inputpass.value === "1120") {
             location.href = "main.html";
         } else {
             alert("Invalid Password");
